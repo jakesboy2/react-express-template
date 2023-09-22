@@ -1,0 +1,21 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": ["airbnb", "airbnb/hooks"],
+  "rules": {
+    "semi": ["warn", "always"],
+    "quotes": ["warn", "single"],
+    "linebreak-style": "off",
+    "import/no-unresolved": "off",
+    "no-unused-vars": ["warn", { "args": "none"} ],
+    "consistent-return": "off",
+    "import/order": "warn",
+    "dot-notation": "off",
+    "import/extensions": "off",
+    "no-console": ["warn", { "allow": ["warn", "error"]}],
+    "import/prefer-default-export": "off",
+    "no-param-reassign": "off",
+    "no-plusplus": "off",
+    "no-continue": "off"
+  }
+}

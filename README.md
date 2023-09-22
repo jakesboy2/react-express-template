@@ -57,26 +57,3 @@ DB_HOST=db_host
 DB_PORT=db_port
 DB_NAME=db_name
 ```
-
-Patch Notes:
-v1.1
-
-* Pomodo module is now a collapsible pop out (remembers its state on refresh)
-* Changed coloring of module headers to be prettier
-* Fixed 255 content limit bug on all modules
-* Fixed login redirect bug
-
-v1.2
-
-* Fixed bug with events showing the wrong time
-* Changed todo's complete field to status field, with corresponding colors. try it out!
-* Added favicon, its cute
-* Lowered min width of plando popout to account for mobile
-
-v1.3
-
-* Added notification option to events
-  * Notifications are sent with permission and the notification option selected on the event
-* Fixed timezone issues with events
-* Changed wording of the clear all options (they now tell you how many items will be removed)
-* Added a default time when creating an event (set to now)

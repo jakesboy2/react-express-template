@@ -15,10 +15,6 @@ JWT_TOKEN=generate_b64_token_here
 JWT_REFRESH_TOKEN=generate_token_here
 EMAIL_USER=mailtrap_username_here
 EMAIL_PASSWORD=mailtrap_password_here
-SPOTIFY_CLIENT_ID=spotify_client_id_here
-SPOTIFY_CLIENT_SECRET=spotify_client_secret_here
-SPOTIFY_REDIRECT_URI=http://localhost:8000/api/spotify/callback
-FRONTEND_BASE_URL=http://localhost:3000
 ```
 
 6. Create a .env file in your client directory with the following contents:
@@ -30,7 +26,7 @@ REACT_APP_BASE_URL=http://localhost:8000/api/
 ## Starting the Client Application
 
 1. From the client directory:
-  a. `npm run start`
+  a. `npm run dev`
 
 ## Starting the Server Application
 

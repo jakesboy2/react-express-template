@@ -14,7 +14,7 @@ if (!databaseLocation) {
   databaseLocation = process.env.HOME;
 }
 
-const sqlLiteFile = path.resolve(databaseLocation, 'dev.sqlite3');
+const sqlLiteFile = path.resolve(databaseLocation, 'template.sqlite3');
 
 module.exports = {
   development: {

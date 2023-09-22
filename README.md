@@ -6,8 +6,9 @@
   b. `npm install -g knex` (This allows you to run knex commands)
 3. From client directory
   a. `npm install`
-4. Create an account on <https://mailtrap.io> and init a sandbox inbox
-5. Create a .env file in the project root with the following contents:
+4. Change the name of the sqlite3 file to prevent clashes with multiple instances of this template
+5. Create an account on <https://mailtrap.io> and init a sandbox inbox
+6. Create a .env file in the project root with the following contents:
 
 ```
 NODE_ENV=development

@@ -1,0 +1,73 @@
+.pomodoBox {
+  position: absolute;
+  top: 15%;
+  right: 0px;
+  height: clamp(250px, 80%, 950px);
+  width: clamp(360px, 50%, 1000px);
+  max-width: 500px;
+  background-color: #4C566A;
+  opacity: 1;
+  transition: all 0.75s;
+  overflow: hidden;
+}
+
+.hide {
+  position: absolute;
+  top: 20%;
+  right: 0px;
+  width: 50%;
+  width: clamp(360px, 50%, 1000px);
+  height: clamp(250px, 80%, 950px);
+  max-width: 500px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.75s;
+}
+
+.miniplayer {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  height: 0px;
+  min-height: clamp(350px, 25%, 950px);
+  width: clamp(360px, 50%, 1000px);
+  max-width: 500px;
+  background-color: #4C566A;
+  opacity: 1;
+  transition: all 0.75s;
+}
+
+.hideMiniplayer {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  height: 0px;
+  width: 50%;
+  min-height: clamp(250px, 25%, 950px);
+  max-width: 500px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.75s;
+}
+
+.pomodoButton {
+  position: absolute;
+  background: #4C566A;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  top: 75vh;
+  right: clamp(360px, 50%, 500px);
+  transition: all .75s;
+}
+
+.pomodoButtonRun {
+  position: absolute;
+  background: #4C566A;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  top: 75vh;
+  right: 0px;
+  transition: all .75s;
+}
